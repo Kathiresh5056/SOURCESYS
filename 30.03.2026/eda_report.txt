@@ -1,0 +1,152 @@
+
+===== EXPLORATORY DATA ANALYSIS REPORT =====
+
+1. DATASET SHAPE & STRUCTURE
+   - Number of rows: 636
+   - Number of columns: 18
+   - Total cells: 11448
+
+2. COLUMN INFORMATION
+   - Columns: id, season, city, date, team1, team2, toss_winner, toss_decision, result, dl_applied, winner, win_by_runs, win_by_wickets, player_of_match, venue, umpire1, umpire2, umpire3
+   
+3. DATA TYPES
+   - id: int64
+   - season: int64
+   - city: object
+   - date: object
+   - team1: object
+   - team2: object
+   - toss_winner: object
+   - toss_decision: object
+   - result: object
+   - dl_applied: int64
+   - winner: object
+   - win_by_runs: int64
+   - win_by_wickets: int64
+   - player_of_match: object
+   - venue: object
+   - umpire1: object
+   - umpire2: object
+   - umpire3: float64
+
+4. MISSING VALUES
+   - id: 0 (0.0%)
+   - season: 0 (0.0%)
+   - city: 7 (1.1%)
+   - date: 0 (0.0%)
+   - team1: 0 (0.0%)
+   - team2: 0 (0.0%)
+   - toss_winner: 0 (0.0%)
+   - toss_decision: 0 (0.0%)
+   - result: 0 (0.0%)
+   - dl_applied: 0 (0.0%)
+   - winner: 3 (0.5%)
+   - win_by_runs: 0 (0.0%)
+   - win_by_wickets: 0 (0.0%)
+   - player_of_match: 3 (0.5%)
+   - venue: 0 (0.0%)
+   - umpire1: 1 (0.2%)
+   - umpire2: 1 (0.2%)
+   - umpire3: 636 (100.0%)
+
+5. DATA SAMPLE (First 5 Rows)
+
+   Row 1:
+      - id: 1
+      - season: 2017
+      - city: Hyderabad
+      - date: 05-04-2017
+      - team1: Sunrisers Hyderabad
+      - team2: Royal Challengers Bangalore
+      - toss_winner: Royal Challengers Bangalore
+      - toss_decision: field
+      - result: normal
+      - dl_applied: 0
+      - winner: Sunrisers Hyderabad
+      - win_by_runs: 35
+      - win_by_wickets: 0
+      - player_of_match: Yuvraj Singh
+      - venue: Rajiv Gandhi International Stadium, Uppal
+      - umpire1: AY Dandekar
+      - umpire2: NJ Llong
+      - umpire3: nan
+
+   Row 2:
+      - id: 2
+      - season: 2017
+      - city: Pune
+      - date: 06-04-2017
+      - team1: Mumbai Indians
+      - team2: Rising Pune Supergiant
+      - toss_winner: Rising Pune Supergiant
+      - toss_decision: field
+      - result: normal
+      - dl_applied: 0
+      - winner: Rising Pune Supergiant
+      - win_by_runs: 0
+      - win_by_wickets: 7
+      - player_of_match: SPD Smith
+      - venue: Maharashtra Cricket Association Stadium
+      - umpire1: A Nand Kishore
+      - umpire2: S Ravi
+      - umpire3: nan
+
+   Row 3:
+      - id: 3
+      - season: 2017
+      - city: Rajkot
+      - date: 07-04-2017
+      - team1: Gujarat Lions
+      - team2: Kolkata Knight Riders
+      - toss_winner: Kolkata Knight Riders
+      - toss_decision: field
+      - result: normal
+      - dl_applied: 0
+      - winner: Kolkata Knight Riders
+      - win_by_runs: 0
+      - win_by_wickets: 10
+      - player_of_match: CA Lynn
+      - venue: Saurashtra Cricket Association Stadium
+      - umpire1: Nitin Menon
+      - umpire2: CK Nandan
+      - umpire3: nan
+
+   Row 4:
+      - id: 4
+      - season: 2017
+      - city: Indore
+      - date: 08-04-2017
+      - team1: Rising Pune Supergiant
+      - team2: Kings XI Punjab
+      - toss_winner: Kings XI Punjab
+      - toss_decision: field
+      - result: normal
+      - dl_applied: 0
+      - winner: Kings XI Punjab
+      - win_by_runs: 0
+      - win_by_wickets: 6
+      - player_of_match: GJ Maxwell
+      - venue: Holkar Cricket Stadium
+      - umpire1: AK Chaudhary
+      - umpire2: C Shamshuddin
+      - umpire3: nan
+
+   Row 5:
+      - id: 5
+      - season: 2017
+      - city: Bangalore
+      - date: 08-04-2017
+      - team1: Royal Challengers Bangalore
+      - team2: Delhi Daredevils
+      - toss_winner: Royal Challengers Bangalore
+      - toss_decision: bat
+      - result: normal
+      - dl_applied: 0
+      - winner: Royal Challengers Bangalore
+      - win_by_runs: 15
+      - win_by_wickets: 0
+      - player_of_match: KM Jadhav
+      - venue: M Chinnaswamy Stadium
+      - umpire1: nan
+      - umpire2: nan
+      - umpire3: nan
